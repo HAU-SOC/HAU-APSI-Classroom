@@ -237,8 +237,8 @@ title: Getting Started with ReactJS and JSX | HAU APSI Classroom
   <section id="activity" class="bg-maroon text-white rounded-xl p-8 shadow-md mt-12 text-center">
     <i data-lucide="code-2" class="w-12 h-12 mx-auto mb-4 opacity-80"></i>
     <h2 class="text-2xl font-bold mb-4">Hands-on / Practice Activity</h2>
-    <p class="text-white opacity-90 mb-6 max-w-2xl mx-auto">Now it is your turn. Set up your local Vite environment, create a new React application, and write a component that uses a ternary operator to dynamically change the text and <code>className</code> based on a variable.</p>
-    <a href="#submission" class="inline-block px-8 py-3 rounded-lg font-bold transition hover:opacity-90" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32);">Open Submission Portal</a>
+    <p class="text-black opacity-90 mb-6 max-w-2xl mx-auto">Now it is your turn. Set up your local Vite environment, create a new React application, and write a component that uses a ternary operator to dynamically change the text and <code>className</code> based on a variable.</p>
+    <a href="https://classroom50.org/HAU-SOC"  class="inline-block px-8 py-3 rounded-lg font-bold transition hover:opacity-90" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32);">Class Portal</a>
   </section>
 
 </main>
