@@ -36,10 +36,10 @@ title: Home | HAU APSI Classroom
     </div>
 </section>
 
-<section id="announcements" class="bg-gray-50 py-16 px-6">
+<section id="announcements" class="bg-gray-50 py-16 px-6 ">
   <h2>Latest Announcements</h2>
   <div class="grid"> 
-    <article class="card">
+    <article class="card bg-white">
       <h3>Week 1</h3>
       <p>Course orientation and classroom guidelines.</p>
     </article>
