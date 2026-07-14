@@ -1,726 +1,244 @@
-<div align="center">
-  <h1> Getting Started with ReactJS and JSX</h1>
- 
-</div>
+---
+layout: default
+title: Getting Started with ReactJS and JSX | HAU APSI Classroom
+---
 
-# Requirements
+<section class="relative py-16 px-6 text-center text-white" style="background: linear-gradient(135deg, rgb(107, 29, 46), rgb(74, 19, 32));">
+  <div class="relative z-10 max-w-4xl mx-auto">
+    <h1 class="font-bold mb-4 text-3xl md:text-4xl text-white">Getting Started with ReactJS and JSX</h1>
+    <p class="text-lg opacity-90 mb-8 text-white">Learn the fundamentals of building dynamic user interfaces with React and Vite.</p>
+  </div>
+</section>
 
-## Development Environment Setup
+<main class="max-w-4xl mx-auto px-6 py-12 space-y-12">
 
-Professional development requires a specific toolchain to ensure consistency and efficiency.
-
-## Prerequisites Checklist
-
-### Software Installation:
-1. Web Browser: Google Chrome (essential for its robust Developer Tools and React DevTools extension).
-2. Code Editor: Visual Studio Code (VS Code).
-3. Node.js: Required for modern build tools like Vite (Version 18+).
-
-### Fundamental Knowledge:
-1. JavaScript Basics: Variables (const/let), Arrow Functions, and the .map() method.
-2. HTML/CSS Basics: Basic tag structure and CSS class selectors.
-
-### VS Code Extensions:
-1. Live Server: Used initially for simple HTML files.
-2. ESLint: Critical for catching syntax errors and enforcing best practices in real-time.
-
-This section covers prerequisites to get started with React. You should have a good understanding of the following technologies:
-
-- HTML
-- CSS
-- JavaScript
-
-# Setup
-# What is React?
-
-React is an open-source JavaScript library for building dynamic and interactive user interfaces(UIs). React is developed and released by Facebook. Facebook is continuously working on the React library and enhancing it by fixing bugs and introducing new features.
-
-To summarize:
-
-- React was released in May 2013
-- React was created by Facebook
-- React is a JavaScript library for building user interfaces
-- React is used to build single page applications - An application which has only one HTML page.
-- React allows us to create reusable UI components
-- React latest release 
-- [React versions](https://reactjs.org/versions/)
-- React official documentation can be found [here](https://reactjs.org/docs/getting-started.html)
-
-
-## Why React?
-
-Here is exactly why developers, startups, and tech giants choose React.
-
-### Core Technical Advantages
-
-1. Component-Based Architecture: UI is broken down into small, isolated Lego-like pieces called components. You write a component once (like a button or navigation bar) and reuse it across your entire application, significantly speeding up development.
-
-2. The Virtual DOM: Standard JavaScript updates the entire web page layout when data changes, which causes lagging. React creates a lightweight copy of the page in its memory (the Virtual DOM), isolates exactly what changed, and updates only that specific element.
-
-3. Declarative UI: Instead of writing complex, step-by-step instructions to manipulate the user interface, you simply describe what the UI should look like based on the current state. React automatically updates the view when the data updates.JSX Syntax:
-
-4. React uses JSX (JavaScript XML), allowing you to write HTML structure directly inside your JavaScript code. This keeps your visual layout and logical code perfectly unified and highly readable.
-
-### Business & Career Benefits
-
-1. Massive Job Market: React is highly sought after by employers globally. Learning React opens doors to high-paying development roles and extensive freelance opportunities.
-   
-3. Backed by Meta: Created and maintained by Meta (formerly Facebook), React is heavily used across their live platforms like Facebook and Instagram. This guarantees the tool remains stable, supported, and continuously updated for years to come.
-   
-5. Unmatched Ecosystem: Because of its massive community, you can find pre-built solutions, testing libraries, and UI packages for almost any feature you need to build.
-   
-7. Cross-Platform Efficiency: By learning React, you instantly gain a foundation for mobile development. Using React Native, you can build native iOS and Android apps using the exact same design concepts and code structures
-
-
-### Why we choose to use React ? 
-
-We use it because of the following reasons:
-
-- fast
-- modular
-- scalable
-- flexible
-- big community and popular
-- open source
-- High job opportunity
-
-# Set Up React
-
-First, make sure you have Node.js installed. You can check by running this in your terminal:
-
-```js node -v ```
-
-If Node.js is installed, you will get a result with the version number:
-
-```js v22.15.0 ```
-
-If not, you will need to install Node.js.
-
-## Install a Build Tool (Vite)
-
-When you have Node.js installed, you can start creating a React application by choosing a build tool.
-
-We will use the Vite build tool in this [tutorial](https://vite.dev/)
-
-Run this command to install Vite:
-
-```js npm install -g create-vite ```
-
-## Create a React Application
-
-Run this command to create a React application named ``` my-react-app ```js:
-
-```js npm create vite@latest my-react-app -- --template react ```
-
-If you get this message, just press y and press Enter to continue:
-
-Need to install the following packages:
-```js
-create-vite@9.0.7
-Ok to proceed? (y)
-Next, you might get this message, just press Enter to continue:
-
-
-> npx
-> create-vite my-react-app --template react
-
-|
-*  Install with npm and start now?
-|  > Yes /   No
--
-```
-
-If the creation was a success, you will get a result like this:
-
-```js
-VITE v8.0.15 ready in 262 ms
-
-→ Local:    http://localhost:5173/
-→ Network: use --host to expose
-→ press h + enter to show help
-```
-
-A new browser window will pop up with your newly created React App! If not, open your browser and type localhost:5173 in the address bar.
-
-# Your First React App
-
-## Modify the React App
-Look in the ``` my-react-app ``` directory, and you will find a ``` src ``` folder. Inside the ``` src ``` folder there is a file called ``` App.jsx```, open it and it will look like this:
-
-Example
-This is the default content of the ``` App.jsx ``` file in the ```src``` folder:
-
-```js
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+  <section id="requirements">
+    <h2 class="text-2xl font-bold text-maroon mb-6 border-b-2 border-gray-200 pb-2">1. Requirements & Setup</h2>
+    
+    <div class="bg-white rounded-xl p-8 shadow-sm border-l-4 border-gold mb-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-4">Development Environment Setup</h3>
+      <p class="text-gray-700 mb-6">Professional development requires a specific toolchain to ensure consistency and efficiency. You should have a good understanding of HTML, CSS, and JavaScript before proceeding.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="font-bold text-gray-900 mb-2 flex items-center gap-2"><i data-lucide="download" class="w-4 h-4 text-maroon"></i> Software Installation</h4>
+          <ul class="list-disc pl-5 space-y-1 text-gray-600 text-sm">
+            <li><strong>Google Chrome:</strong> Essential for Developer Tools and React DevTools.</li>
+            <li><strong>VS Code:</strong> The recommended code editor.</li>
+            <li><strong>Node.js:</strong> Required for modern build tools like Vite (Version 18+).</li>
+          </ul>
         </div>
         <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
+          <h4 class="font-bold text-gray-900 mb-2 flex items-center gap-2"><i data-lucide="book-open" class="w-4 h-4 text-maroon"></i> Fundamental Knowledge</h4>
+          <ul class="list-disc pl-5 space-y-1 text-gray-600 text-sm">
+            <li><strong>JS Basics:</strong> Variables (`const`/`let`), Arrow Functions, and `.map()`.</li>
+            <li><strong>HTML/CSS:</strong> Basic tag structure and class selectors.</li>
           </ul>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      </div>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
-}
-
-export default App
-
-
-```
-
-Try replacing the entire file content with the code below and save the file.
-
-
-Example
-Replace all the content of the ```App.jsx``` file with the code below:
-```js
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
+      <h4 class="font-bold text-gray-900 mt-6 mb-2 flex items-center gap-2"><i data-lucide="puzzle" class="w-4 h-4 text-maroon"></i> VS Code Extensions</h4>
+      <ul class="list-disc pl-5 space-y-1 text-gray-600 text-sm">
+        <li><strong>Live Server:</strong> Used initially for simple HTML files.</li>
+        <li><strong>ESLint:</strong> Critical for catching syntax errors and enforcing best practices in real-time.</li>
+      </ul>
     </div>
+  </section>
+
+  <section id="what-is-react">
+    <h2 class="text-2xl font-bold text-maroon mb-6 border-b-2 border-gray-200 pb-2">2. What is React?</h2>
+    <div class="bg-white rounded-xl p-8 shadow-sm">
+      <p class="text-gray-700 mb-4">React is an open-source JavaScript library for building dynamic and interactive user interfaces (UIs). Created and released by Facebook in May 2013, it is used to build Single Page Applications (SPAs) and allows us to create reusable UI components.</p>
+      <ul class="list-disc pl-5 space-y-2 text-gray-700 mb-8">
+        <li>See <a href="https://reactjs.org/versions/" target="_blank" class="text-maroon hover:underline font-medium">React versions</a></li>
+        <li>Read the <a href="https://reactjs.org/docs/getting-started.html" target="_blank" class="text-maroon hover:underline font-medium">Official Documentation</a></li>
+      </ul>
+
+      <h3 class="text-xl font-semibold text-gray-900 mb-4">Why React?</h3>
+      
+      
+
+      <div class="space-y-6">
+        <div>
+          <h4 class="font-bold text-maroon mb-2">Core Technical Advantages</h4>
+          <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
+            <li><strong>Component-Based Architecture:</strong> UI is broken down into small, isolated reusable pieces.</li>
+            <li><strong>The Virtual DOM:</strong> React creates a lightweight copy of the page in its memory, isolates exactly what changed, and updates only that specific element, preventing lag.</li>
+            <li><strong>Declarative UI:</strong> Describe what the UI should look like based on current state, and React handles the updates.</li>
+            <li><strong>JSX Syntax:</strong> Write HTML structure directly inside your JavaScript code.</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-maroon mb-2">Business & Career Benefits</h4>
+          <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
+            <li><strong>Massive Job Market:</strong> Highly sought after globally, opening doors to high-paying roles.</li>
+            <li><strong>Backed by Meta:</strong> Guarantees stability and continuous updates.</li>
+            <li><strong>Unmatched Ecosystem:</strong> A massive community with pre-built solutions and UI packages.</li>
+            <li><strong>Cross-Platform Efficiency:</strong> Learn React once, and use React Native to build iOS and Android apps.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="setup-react">
+    <h2 class="text-2xl font-bold text-maroon mb-6 border-b-2 border-gray-200 pb-2">3. Initializing a React App</h2>
+    <div class="bg-white rounded-xl p-8 shadow-sm space-y-6">
+      
+      <div>
+        <p class="text-gray-700 mb-2">First, make sure Node.js is installed. Check your terminal:</p>
+        <pre class="bg-gray-900 text-green-400 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code>node -v
+<span class="text-gray-400"># Expected output: v22.15.0 or similar</span></code></pre>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-bold text-gray-900 mb-2">Install Vite & Create Application</h3>
+        <p class="text-gray-700 mb-2">We will use the Vite build tool. Run this command to create a project named <code>my-react-app</code>:</p>
+        <pre class="bg-gray-900 text-green-400 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code>npm create vite@latest my-react-app -- --template react</code></pre>
+      </div>
+
+      <div>
+        <p class="text-gray-700 mb-2">Follow the terminal prompts (press <code>y</code> to proceed). If successful, you will see:</p>
+        <pre class="bg-gray-900 text-gray-300 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code>VITE v8.0.15 ready in 262 ms
+
+  <span class="text-green-400">➜</span>  <strong class="text-white">Local:</strong>   http://localhost:5173/
+  <span class="text-green-400">➜</span>  <strong class="text-white">Network:</strong> use --host to expose</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="modify-app">
+    <h2 class="text-2xl font-bold text-maroon mb-6 border-b-2 border-gray-200 pb-2">4. Your First React App</h2>
+    <div class="bg-white rounded-xl p-8 shadow-sm">
+      <p class="text-gray-700 mb-4">Look in the <code>my-react-app/src</code> folder. Open <code>App.jsx</code>. Replace the default boilerplate with this simple code:</p>
+      
+      <div class="bg-gray-800 rounded-t-lg px-4 py-2 flex items-center gap-2">
+        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+        <span class="text-gray-400 text-xs font-mono ml-2">src/App.jsx</span>
+      </div>
+      <pre class="bg-gray-900 text-blue-300 p-4 rounded-b-lg text-sm font-mono overflow-x-auto mb-4"><code><span class="text-purple-400">function</span> <span class="text-blue-400">App</span>() {
+  <span class="text-purple-400">return</span> (
+    <span class="text-gray-300">&lt;</span><span class="text-red-400">div</span> <span class="text-yellow-300">className</span><span class="text-gray-300">=</span><span class="text-green-300">"App"</span><span class="text-gray-300">&gt;</span>
+      <span class="text-gray-300">&lt;</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span><span class="text-white">Hello World!</span><span class="text-gray-300">&lt;/</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>
+    <span class="text-gray-300">&lt;/</span><span class="text-red-400">div</span><span class="text-gray-300">&gt;</span>
   );
 }
 
-export default App;
-```
-
-See the changes in the browser when you click Save.
-
-
-# JSX
-## JSX Basics
-
-### What is JSX?
-JSX stands for JavaScript XML.
-
-JSX allows us to write HTML in React.
-
-JSX makes it easier to write and add HTML in React.
-
-### Coding JSX
-
-JSX allows us to write HTML elements in JavaScript and place them in the DOM without any ```createElement()```  and/or ```appendChild() ``` methods.
-
-JSX converts HTML tags into react elements.
-
-You are not required to use JSX, but JSX makes it easier to write React applications.
-
-Here are two examples. 
-
-The first uses JSX and the second does not:
-
-Example 1 
-JSX:
-```js
-main.jsx
-const myElement = <h1>I Love JSX!</h1>;
-
-createRoot(document.getElementById('root')).render(
-  myElement
-);
-```
-
-Example 2
-Without JSX:
-
-```js
-main.jsx
-const myElement = React.createElement('h1', {}, 'I do not use JSX!');
-
-createRoot(document.getElementById('root')).render(
-  myElement
-);
-```
-
-As you can see in the first example, JSX allows us to write HTML directly within the JavaScript code.
-
-JSX is an extension of the JavaScript language based on ES6, and is translated into regular JavaScript at runtime.
-
-
-### Expressions in JSX
-With JSX you can write expressions inside curly braces ``` { } ```.
-
-The expression can be a React variable, or property, or any other valid JavaScript expression. JSX will execute the expression and return the result:
-
-Example
-Execute the expression ``` 5 + 5 ```:
-
-main.jsx
-```js
-const myElement = <h1>React is {5 + 5} times better with JSX</h1>;
-```
-
-### Inserting a Large Block of HTML
-To write HTML on multiple lines, put the HTML inside parentheses:
-
-Example
-Create a list with three list items:
-
-main.jsx
-```js
-const myElement = (
-  <ul>
-    <li>Apples</li>
-    <li>Bananas</li>
-    <li>Cherries</li>
-  </ul>
-);
-```
-
-### One Top Level Element
-The HTML code must be wrapped in ONE top level element.
-
-So if you like to write two paragraphs, you must put them inside a parent element, like a div element.
-
-Example
-Wrap two paragraphs inside one DIV element:
-
-main.jsx
-```js
-const myElement = (
-  <div>
-    <p>I am a paragraph.</p>
-    <p>I am a paragraph too.</p>
-  </div>
-);
-```
-
-JSX will throw an error if the HTML is not correct, or if the HTML misses a parent element.
-
-Alternatively, you can use a "fragment" to wrap multiple lines. This will prevent unnecessarily adding extra nodes to the DOM.
-
-A fragment looks like an empty HTML tag: ``` <></> ```.
-
-Example
-Wrap two paragraphs inside a fragment:
-
-main.jsx
-```js
-const myElement = (
-  <>
-    <p>I am a paragraph.</p>
-    <p>I am a paragraph too.</p>
-  </>
-);
-```
-
-### Elements Must be Closed
-JSX follows XML rules, and therefore HTML elements must be properly closed.
-
-Example
-Close empty elements with ``` /> ```
-
-main.jsx
-```js
-const myElement = <input type="text" />;
-```
-
-JSX will throw an error if the HTML is not properly closed.
-
-### Attribute class = className
-The ``` class ``` attribute is a much used attribute in HTML, but since JSX is rendered as JavaScript, and the ``` class ``` keyword is a reserved word in JavaScript, you are not allowed to use it in JSX.
-
-Use attribute ``` className ``` instead.
-
-JSX solved this by using ``` className ``` instead. When JSX is rendered, it translates ``` className ``` attributes into ``` class ``` attributes.
-
-Example
-Use attribute ``` className ``` instead of ``` class ``` in JSX:
-
-main.jsx
-```js
-const myElement = <h1 className="myclass">Hello World</h1>;
-```
-
-### Comments in JSX
-Comments in JSX are written with ``` {/* */} ```
-
-Example
-Comments in JSX:
-
-main.jsx
-```js
-const myElement = <h1>Hello {/* Wonderful */} World </h1>;
-```
-
-### JSX in React Components
-React uses components to build UIs. Components are independent and reusable bits of code.
-
-React components are like JavaScript functions, and return HTML.
-
-JSX works perfect inside React components
-
-Example
-JSX in Components:
-```js
-main.jsx
-function Car() {
-  return (
-    <>
-      <h2>My Car</h2>
-      <p>It is a Ford Mustang.</p>
-    </>
-  );
-}
-
-createRoot(document.getElementById('root')).render(
-  <Car />
-)
-```
-Inside the components, you can do some other operations before returning the HTML:
-
-Example
-JSX in Components:
-
-main.jsx
-```js
-function Car() {
-  const brand = "Ford";
-  const model = "Mustang";
-  return (
-    <>
-      <h2>My Car</h2>
-      <p>It is a {brand} {model}.</p>
-    </>
-  );
-}
-
-createRoot(document.getElementById('root')).render(
-  <Car />
-)
-
-```
-
-## JSX Expressions
-
-One of the most powerful features of JSX is the ability to embed JavaScript expressions directly within your markup.
-
-### Expressions
-You can insert any valid JavaScript expression inside JSX by wrapping it in curly braces ``` { } ```.
-
-React will evaluate the expression and render the result in the DOM.
-
-Example
-Execute the expression ``` 218 * 1.36 ```:
-```js
-function Car() {
-  return (
-    <>
-      <h1>My car</h1>
-      <p>It has {218 * 1.36} horsepower</p>
-    </>
-  );
-}
-```
-### Variables
-Variables are also valid expressions. Insert variables in JSX by wrapping it in curly braces ```{ } ```.
-
-Example
-Use a variable inside JSX:
-```js
-function Car() {
-  const hp = 218 * 1.36;
-  return (
-    <>
-      <h1>My car</h1>
-      <p>It has {hp} horsepower</p>
-    </>
-  );
-}
-```
-
-
-### Function Calls
-Function calls are valid expressions. Insert function calls in JSX by wrapping it in curly braces { }.
-
-Example
-Use a function inside JSX:
-```js
-function kwtohp(kw) {
-  return kw * 1.36;
-}
-
-function Car() {
-  return (
-    <>
-      <h1>My car</h1>
-      <p>It has {kwtohp(218)} horsepower</p>
-    </>
-  );
-}
-```
-
-### Object Properties
-Access object properties within JSX:
-
-Example
-Refer to an object property inside JSX:
-```js
-function Car() {
-  const myobj = {
-    name: "Fiat",
-    model: "500",
-    color: "white"
-  };
-  return (
-    <>
-      <h1>My car is a {myobj.color} {myobj.name} {myobj.model}</h1>
-    </>
-  );
-}
-```
-
-
-
-## JSX Attributes
-
-JSX allows you to insert attributes into HTML elements, but there are a few important differences.
-
-### class = className
-The ``` class ``` attribute is a much used attribute in HTML, but since JSX is rendered as JavaScript, and the class keyword is a reserved word in JavaScript, you are not allowed to use it in JSX.
-
-JSX solved this by using ``` className ``` instead. When JSX is rendered, it translates ``` className ``` attributes into ``` class ``` attributes.
-
-Example
-Use attribute ```className``` instead of ```class``` in JSX:
-```js
-function Car() {
-  return (
-    <h1 className="myclass">Hello World</h1>
-  );
-}
-```
-
-### Expressions as Attributes
-You can also use JavaScript expressions as attribute values. This is very useful for dynamic attributes.
-
-Example
-Use JavaScript expressions as attribute values:
-```js
-function Car() {
-  const x = "myclass";
-  return (
-    <h1 className={x}>Hello World</h1>
-  );
-}
-```
-Note that the attribute value is not wrapped in quotes, this is important when using expressions (JavaScript variables) as attribute values. If you use quotes, JSX will treat it as a string literals and not a JavaScript expression.
-
-
-### camelCase Event Attributes
-Event attributes in JSX are written in camelCase.
-
-Example
-Use camelCase for event attributes:
-```js
-function Car() {
-  const myfunc = () => {
-    alert('Hello World');
-  };
-  return (
-    <button onClick={myfunc}>Click me</button>
-  );
-}
-```
-
-### Boolean Attributes
-If you pass no value for an attribute, JSX treats it as true. To pass false, you must specify it as an expression.
-
-Example
-Boolean true in JSX, this will make the button disabled:
-```js
-<button onClick={myfunc} disabled>Click me</button>
-```
-
-Example
-Also true in JSX, this will also make the button disabled:
-```js
-<button onClick={myfunc} disabled={true}>Click me</button>
-```
-
-Example
-False in JSX, this will NOT make the button disabled:
-```js
-<button onClick={myfunc} disabled={false}>Click me</button>
-```
-
-### The style Attribute
-The style attribute in JSX only accepts a JavaScript object with camelCased CSS property names, rather than a CSS string (as in HTML).
-
-Example
-Use the style attribute:
-```js
-function Car() {
-  const mystyles = {
-    color: "red",
-    fontSize: "20px",
-    backgroundColor: "lightyellow",
-  };
-
-  return (
-    <>
-      <h1 style={mystyles}>My car</h1>
-    </>
-  );
-}
-```
-Notice two things about the example above.
-
-The styles are stored in an object.
-Style properties are written in camelCase, e.g. ``` fontSize```, instead of ```font-size```.
-This is an important difference between HTML and JSX.
-
-
-
-## JSX If Statements
-
-### Conditions - if statements
-React supports ``` if ``` statements, but not inside JSX.
-
-To be able to use conditional statements in JSX, you should put the ``` if ``` statements outside of the JSX, or you could use a ternary expression instead:
-
-Option 1:
-Write ```if ``` statements outside of the JSX code:
-
-Example
-Write "Banana" if ```x``` is less than 10, otherwise "Apple":
-```js
-function Fruit() {
-  const x = 5;
-  let y = "Apple";
-  if (x < 10) {
-    y = "Banana";
+<span class="text-purple-400">export default</span> App;</code></pre>
+      <p class="text-sm text-gray-500 italic">Save the file and check your browser to see the changes update instantly!</p>
+    </div>
+  </section>
+
+  <section id="jsx-basics">
+    <h2 class="text-2xl font-bold text-maroon mb-6 border-b-2 border-gray-200 pb-2">5. Understanding JSX</h2>
+    <div class="bg-white rounded-xl p-8 shadow-sm space-y-8">
+      
+      <div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">What is JSX?</h3>
+        <p class="text-gray-700">JSX stands for JavaScript XML. It allows us to write HTML elements directly in JavaScript without needing <code>createElement()</code> methods. It is translated into regular JavaScript at runtime.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="font-bold text-gray-900 mb-2">With JSX (Easy)</h4>
+          <pre class="bg-gray-900 text-gray-300 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">const</span> myElement = <span class="text-gray-300">&lt;</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>I Love JSX!<span class="text-gray-300">&lt;/</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>;</code></pre>
+        </div>
+        <div>
+          <h4 class="font-bold text-gray-900 mb-2">Without JSX (Hard)</h4>
+          <pre class="bg-gray-900 text-gray-300 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">const</span> myElement = React.<span class="text-blue-400">createElement</span>(<span class="text-green-300">'h1'</span>, {}, <span class="text-green-300">'I do not use JSX!'</span>);</code></pre>
+        </div>
+      </div>
+
+      <div class="border-l-4 border-maroon pl-6 py-2 space-y-6 bg-gray-50 rounded-r-lg">
+        <div>
+          <h4 class="font-bold text-gray-900">1. One Top Level Element</h4>
+          <p class="text-sm text-gray-700 mb-2">HTML code must be wrapped in ONE parent element. You can use a wrapper <code>&lt;div&gt;</code> or a React Fragment <code>&lt;&gt;&lt;/&gt;</code>.</p>
+          <pre class="bg-gray-900 text-gray-300 p-3 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">const</span> myElement = (
+  <span class="text-gray-300">&lt;&gt;</span>
+    <span class="text-gray-300">&lt;</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>Paragraph 1<span class="text-gray-300">&lt;/</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>
+    <span class="text-gray-300">&lt;</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>Paragraph 2<span class="text-gray-300">&lt;/</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>
+  <span class="text-gray-300">&lt;/&gt;</span>
+);</code></pre>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-gray-900">2. Elements Must be Closed</h4>
+          <p class="text-sm text-gray-700 mb-2">JSX follows strict XML rules. Empty elements must close with <code>/&gt;</code>.</p>
+          <pre class="bg-gray-900 text-gray-300 p-3 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">const</span> myElement = <span class="text-gray-300">&lt;</span><span class="text-red-400">input</span> <span class="text-yellow-300">type</span><span class="text-gray-300">=</span><span class="text-green-300">"text"</span> <span class="text-gray-300">/&gt;</span>;</code></pre>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-gray-900">3. Attribute class = className</h4>
+          <p class="text-sm text-gray-700 mb-2">Because <code>class</code> is a reserved word in JavaScript, JSX uses <code>className</code>.</p>
+          <pre class="bg-gray-900 text-gray-300 p-3 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">const</span> myElement = <span class="text-gray-300">&lt;</span><span class="text-red-400">h1</span> <span class="text-yellow-300">className</span><span class="text-gray-300">=</span><span class="text-green-300">"myclass"</span><span class="text-gray-300">&gt;</span>Hello World<span class="text-gray-300">&lt;/</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>;</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="jsx-expressions">
+    <h2 class="text-2xl font-bold text-maroon mb-6 border-b-2 border-gray-200 pb-2">6. JSX Expressions & Logic</h2>
+    <div class="bg-white rounded-xl p-8 shadow-sm space-y-6">
+      
+      <p class="text-gray-700">You can embed any valid JavaScript expression (math, variables, function calls) inside JSX by wrapping it in curly braces <code>{ }</code>.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="font-bold text-gray-900 mb-2">Variables in JSX</h4>
+          <pre class="bg-gray-900 text-gray-300 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">function</span> <span class="text-blue-400">Car</span>() {
+  <span class="text-purple-400">const</span> hp = <span class="text-orange-300">218</span> * <span class="text-orange-300">1.36</span>;
+  <span class="text-purple-400">return</span> <span class="text-gray-300">&lt;</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>It has {hp} horsepower<span class="text-gray-300">&lt;/</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>;
+}</code></pre>
+        </div>
+        <div>
+          <h4 class="font-bold text-gray-900 mb-2">Dynamic Attributes</h4>
+          <pre class="bg-gray-900 text-gray-300 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">function</span> <span class="text-blue-400">Car</span>() {
+  <span class="text-purple-400">const</span> x = <span class="text-green-300">"myclass"</span>;
+  <span class="text-purple-400">return</span> <span class="text-gray-300">&lt;</span><span class="text-red-400">h1</span> <span class="text-yellow-300">className</span><span class="text-gray-300">=</span>{x}<span class="text-gray-300">&gt;</span>Hello World<span class="text-gray-300">&lt;/</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>;
+}</code></pre>
+        </div>
+      </div>
+
+      <h3 class="text-xl font-semibold text-gray-900 mt-8 mb-2">Conditional Rendering (If Statements)</h3>
+      <p class="text-gray-700 mb-4">React supports <code>if</code> statements outside of the JSX block. Inside JSX, you must use a ternary operator.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="font-bold text-gray-900 mb-2">Option 1: Outside JSX</h4>
+          <pre class="bg-gray-900 text-gray-300 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">function</span> <span class="text-blue-400">Fruit</span>() {
+  <span class="text-purple-400">const</span> x = <span class="text-orange-300">5</span>;
+  <span class="text-purple-400">let</span> y = <span class="text-green-300">"Apple"</span>;
+  
+  <span class="text-purple-400">if</span> (x &lt; <span class="text-orange-300">10</span>) {
+    y = <span class="text-green-300">"Banana"</span>;
   }
 
-  return (
-    <h1>{y}</h1>
+  <span class="text-purple-400">return</span> <span class="text-gray-300">&lt;</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>{y}<span class="text-gray-300">&lt;/</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>;
+}</code></pre>
+        </div>
+        <div>
+          <h4 class="font-bold text-gray-900 mb-2">Option 2: Inside JSX (Ternary)</h4>
+          <pre class="bg-gray-900 text-gray-300 p-4 rounded-lg text-sm font-mono overflow-x-auto"><code><span class="text-purple-400">function</span> <span class="text-blue-400">Fruit</span>() {
+  <span class="text-purple-400">const</span> x = <span class="text-orange-300">5</span>;
+  
+  <span class="text-purple-400">return</span> (
+    <span class="text-gray-300">&lt;</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>
+      {x &lt; <span class="text-orange-300">10</span> ? <span class="text-green-300">"Banana"</span> : <span class="text-green-300">"Apple"</span>}
+    <span class="text-gray-300">&lt;/</span><span class="text-red-400">h1</span><span class="text-gray-300">&gt;</span>
   );
-}
-```
+}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
 
-Option 2:
-Use ternary expressions instead:
+  <section id="activity" class="bg-maroon text-white rounded-xl p-8 shadow-md mt-12 text-center">
+    <i data-lucide="code-2" class="w-12 h-12 mx-auto mb-4 opacity-80"></i>
+    <h2 class="text-2xl font-bold mb-4">Hands-on / Practice Activity</h2>
+    <p class="text-white opacity-90 mb-6 max-w-2xl mx-auto">Now it is your turn. Set up your local Vite environment, create a new React application, and write a component that uses a ternary operator to dynamically change the text and <code>className</code> based on a variable.</p>
+    <a href="#submission" class="inline-block px-8 py-3 rounded-lg font-bold transition hover:opacity-90" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32);">Open Submission Portal</a>
+  </section>
 
-Example
-Write "Banana" if ```x``` is less than 10, otherwise "Apple":
-```js
-function Fruit() {
-  const x = 5;
-  return (
-    <h1>{(x) < 10 ? "Banana" : "Apple"}</h1>
-  );
-}
-```
-Note that in order to embed a JavaScript expression inside JSX, the JavaScript must be wrapped with curly braces, {}.
-
-# Hands-on/ Practice Activity
+</main>
