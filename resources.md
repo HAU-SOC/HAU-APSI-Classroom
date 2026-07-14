@@ -11,9 +11,17 @@ title: Resources
   </div>
 </section>
 
+
+
 <section id="modules" class="max-w-6xl mx-auto px-6 py-16">
   <h2 class="text-2xl font-bold text-center mb-10" style="color: rgb(107, 29, 46);">Learning Modules</h2>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+<article id="module-1-trigger" class="bg-white rounded-xl p-6 shadow-sm border-t-4 border-maroon cursor-pointer hover:shadow-md transition">
+  <h3 class="font-semibold text-lg mb-2 text-gray-900">Module 1</h3>
+  <p class="text-sm text-gray-600 mb-4">Introduction to APSI concepts and course overview.</p>
+  <span class="px-3 py-1 rounded-full text-xs font-semibold badge-open">Click to Open</span>
+</article>
     <article class="bg-white rounded-xl p-6 shadow-sm border-t-4 border-maroon">
       <h3 class="font-semibold text-lg mb-2 text-gray-900">Module 1</h3>
       <p class="text-sm text-gray-600 mb-4">Introduction to APSI concepts and course overview.</p>
@@ -30,7 +38,37 @@ title: Resources
       <span class="px-3 py-1 rounded-full text-xs font-semibold badge-upcoming">Upcoming</span>
     </article>
   </div>
+
+  <section id="module-1-content" class="hidden bg-white border-y border-gray-200 py-12 px-6 shadow-inner">
+  <div class="max-w-4xl mx-auto">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-2xl font-bold text-gray-900">Module 1: Introduction to APSI</h2>
+      <button id="close-module-1" class="text-gray-500 hover:text-maroon transition flex items-center gap-2 text-sm font-medium">
+        <i data-lucide="x-circle" class="w-5 h-5"></i> Close Lesson
+      </button>
+    </div>
+    <div class="prose max-w-none text-gray-700 space-y-6">
+      <p class="text-lg">Welcome to Module 1! In this lesson, we will cover the foundational frameworks required for this course.</p>
+      <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-gold">
+        <h3 class="font-semibold text-gray-900 mb-2">Lesson Objectives:</h3>
+        <ul class="list-disc pl-5 space-y-1 text-sm">
+          <li>Understand the core principles of the syllabus.</li>
+          <li>Identify key tools we will use this semester.</li>
+          <li>Complete the introductory reflection.</li>
+        </ul>
+      </div>
+      <h3 class="font-semibold text-xl text-gray-900 mt-8">Required Reading</h3>
+      <p>Please read Chapter 1 of the textbook before watching the introductory video below.</p>
+      <div class="w-full aspect-video bg-gray-200 rounded-xl flex flex-col items-center justify-center text-gray-400 border border-gray-300">
+        <i data-lucide="play-circle" class="w-12 h-12 mb-2 opacity-50"></i>
+        <span>Lecture Video Placeholder</span>
+      </div>
+    </div>
+  </div>
 </section>
+</section>
+
+
 
 <section id="syllabus" class="bg-gray-50 py-16 px-6">
   <div class="max-w-4xl mx-auto">
