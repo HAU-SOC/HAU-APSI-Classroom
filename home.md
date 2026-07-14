@@ -6,7 +6,7 @@ title: Home | HAU APSI Classroom
 <section class="relative py-20 px-6 text-center text-white" style="background: linear-gradient(135deg, rgb(107, 29, 46), rgb(74, 19, 32));">
    
   <div class="relative z-10 max-w-3xl mx-auto">
-     <img class="h-14 w-auto" loading="lazy" src="https://www.hau.edu.ph/images/school-logo/hau_soc_logo_revised4.png" alt="HAU logo">
+     <center> <img class="h-14 w-auto" loading="lazy" src="https://www.hau.edu.ph/images/school-logo/hau_soc_logo_revised4.png" alt="HAU logo"> </center>
     <h2 class="font-bold mb-4" style="font-size: 40px;">HAU APSI Classroom</h2>
     <p class="text-lg opacity-90 mb-8">Updates, resources, activities, and important class announcements in one place.</p>
     <a href="#quick-links" class="inline-block px-8 py-3 rounded-lg font-semibold text-maroon hover:opacity-90 transition" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32);">Get Started</a>
