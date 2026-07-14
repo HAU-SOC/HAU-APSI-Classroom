@@ -2,6 +2,7 @@
 layout: default
 title: Home | HAU APSI Classroom
 ---
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
 <section class="relative py-20 px-6 text-center text-white" style="background: linear-gradient(135deg, rgb(107, 29, 46), rgb(74, 19, 32));">
    
