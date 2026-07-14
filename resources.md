@@ -19,11 +19,6 @@ title: Resources
       <p class="text-sm text-gray-600 mb-4">Introduction to APSI concepts and course overview.</p>
       <span class="px-3 py-1 rounded-full text-xs font-semibold badge-open">Click to Open</span>
     </article>
-    <article class="bg-white rounded-xl p-6 shadow-sm border-t-4 border-maroon">
-      <h3 class="font-semibold text-lg mb-2 text-gray-900">Module 1</h3>
-      <p class="text-sm text-gray-600 mb-4">Introduction to APSI concepts and course overview.</p>
-      <span class="px-3 py-1 rounded-full text-xs font-semibold badge-open">Available</span>
-    </article>
     <article class="bg-white rounded-xl p-6 shadow-sm border-t-4 border-gold">
       <h3 class="font-semibold text-lg mb-2 text-gray-900">Module 2</h3>
       <p class="text-sm text-gray-600 mb-4">Core principles and foundational frameworks.</p>
