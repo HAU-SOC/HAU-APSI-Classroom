@@ -18,7 +18,7 @@ title: Home
       <h3>📢 Announcements</h3>
       <p>See the latest class updates and reminders.</p>
     </a>
-    <a class="card" href="#resources">
+    <a class="card" href="{{ '/resources' | relative_url }}">
       <h3>📚 Resources</h3>
       <p>Access modules, references, and study materials.</p>
     </a>
