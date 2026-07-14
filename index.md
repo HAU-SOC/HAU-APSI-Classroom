@@ -74,10 +74,10 @@ title: Home
     <div class="bg-white rounded-xl shadow-sm overflow-hidden">
       <table class="w-full text-left">
         <thead class="bg-maroon text-white">
-          <tr>
+          <tr class="hover:bg-gray-50">
             <th class="px-6 py-4 font-semibold relative py-20 px-6 text-center text-white" style="background: linear-gradient(135deg, rgb(107, 29, 46), rgb(74, 19, 32));">Activity</th>
-            <th class="px-6 py-4 font-semibold">Due Date</th>
-            <th class="px-6 py-4 font-semibold">Status</th>
+            <th class="px-6 py-4 font-semibold relative py-20 px-6 text-center text-white" style="background: linear-gradient(135deg, rgb(107, 29, 46), rgb(74, 19, 32));">Due Date</th>
+            <th class="px-6 py-4 font-semibold relative py-20 px-6 text-center text-white" style="background: linear-gradient(135deg, rgb(107, 29, 46), rgb(74, 19, 32));">Status</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-gray-100">
