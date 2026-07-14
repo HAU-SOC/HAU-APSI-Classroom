@@ -10,7 +10,7 @@ title: Home | HAU APSI Classroom
     <img class="w-24 h-24 mx-auto mb-6 rounded-full bg-white/20 p-1" loading="lazy" src="https://www.hau.edu.ph/images/school-logo/hau_soc_logo_revised4.png" alt="Holy Angel University seal">
     <h2 class="font-bold mb-4" style="color: rgb(255, 255, 255); font-weight: 700; font-size: 40px;">6APSI | Application and Systems Integration</h2>
     <p class="text-lg opacity-90 mb-8" style="color: rgb(255, 255, 255); font-weight: 400; font-size: 16px;">GitHub, classroom50, resources, and activities</p>
-    <a href="https://classroom50.org/HAU-SOC" class="inline-block px-8 py-3 rounded-lg font-semibold text-maroon hover:opacity-90 transition" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32); font-weight: 700; font-size: 16px;">Submission Portal</a>
+    <a href="https://classroom50.org/HAU-SOC" class="inline-block px-8 py-3 rounded-lg font-semibold text-maroon hover:opacity-90 transition" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32); font-weight: 700; font-size: 16px;">Class Portal</a>
    <a href="{{ '/resources' | relative_url }}" class="inline-block px-8 py-3 rounded-lg font-semibold text-maroon hover:opacity-90 transition" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32); font-weight: 700; font-size: 16px;">Class Resources</a>
   </div>
 </section>
