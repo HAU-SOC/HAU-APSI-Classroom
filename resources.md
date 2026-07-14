@@ -37,9 +37,7 @@ title: Resources
       <span class="px-3 py-1 rounded-full text-xs font-semibold badge-upcoming">Upcoming</span>
     </article>
   </div>
-</section>
-
-<section id="module-1-content" class="bg-white border-y border-gray-200 py-12 px-6 shadow-inner">
+    <section id="module-1-content" class="bg-white border-y border-gray-200 py-12 px-6 shadow-inner">
   <div class="max-w-4xl mx-auto">
     <div class="flex items-center justify-between mb-8">
       <h2 class="text-2xl font-bold text-gray-900">Module 1: Introduction to APSI</h2>
@@ -66,6 +64,9 @@ title: Resources
     </div>
   </div>
 </section>
+</section>
+
+
 
 <section id="syllabus" class="bg-gray-50 py-16 px-6">
   <div class="max-w-4xl mx-auto">
