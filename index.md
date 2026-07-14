@@ -14,6 +14,10 @@ title: Home
 <section id="quick-links">
   <h2>Quick Links</h2>
   <div class="grid">
+    <a class="card" href="{{ '/home' | relative_url }}">
+      <h3>📢 home </h3>
+      <p>See the latest class updates and reminders.</p>
+    </a>
     <a class="card" href="#announcements">
       <h3>📢 Announcements</h3>
       <p>See the latest class updates and reminders.</p>
