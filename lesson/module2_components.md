@@ -115,7 +115,6 @@ title: React Components | HAU APSI Classroom
     <span class="text-gray-300">&lt;</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>Age: {currentYear - yearBorn}<span class="text-gray-300">&lt;/</span><span class="text-red-400">p</span><span class="text-gray-300">&gt;</span>
   <span class="text-gray-300">&lt;/</span><span class="text-red-400">div</span><span class="text-gray-300">&gt;</span>
 );</code></pre>
-
       <div class="mt-6 p-4 bg-yellow-50 rounded-lg text-sm text-gray-700 border border-yellow-200">
         <strong class="text-yellow-800"><i data-lucide="lightbulb" class="inline w-4 h-4 mr-1"></i> Pro Tip for Styling:</strong> 
         You can inject CSS objects directly into the <code>style</code> attribute. Just remember to use camelCase (e.g., <code>borderRadius</code> instead of <code>border-radius</code>).
@@ -127,24 +126,8 @@ title: React Components | HAU APSI Classroom
     <h2 class="text-2xl font-bold text-gray-900 mb-8 text-center flex items-center justify-center gap-3">
       <i data-lucide="dumbbell" class="text-maroon w-8 h-8"></i> Practice Exercises
     </h2>
-    
-    <div class="space-y-8">
       <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-gold">
-        <h3 class="font-bold text-lg text-maroon mb-4">Level 1: Concept Check</h3>
-        <ol class="list-decimal pl-5 space-y-2 text-gray-700 text-sm">
-          <li>What is the difference between a regular function and an arrow function?</li>
-          <li>What is a React Component?</li>
-          <li>How do you make a React functional component?</li>
-          <li>What is the difference between a pure JavaScript function and a functional component?</li>
-          <li>How small can a React component be? Can we make a button or input field component?</li>
-          <li>Make a reusable <code>Button</code> component.</li>
-          <li>Make a reusable <code>InputField</code> component.</li>
-          <li>Make a reusable alert box component with one <code>div</code> parent element and one <code>p</code> child element (e.g., warning alert, success alert).</li>
-        </ol>
-      </div>
-
-      <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-gold">
-        <h3 class="font-bold text-lg text-maroon mb-4">Level 2: Building UIs</h3>
+        <h3 class="font-bold text-lg text-maroon mb-4">Level 1: Building UIs</h3>
         <ul class="space-y-4 text-gray-700 text-sm list-disc pl-5">
           <li>
             <strong>Front-End Technologies:</strong> Create functional components to display a grid of technology logos.
@@ -156,9 +139,8 @@ title: React Components | HAU APSI Classroom
           </li>
         </ul>
       </div>
-
       <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-gold">
-        <h3 class="font-bold text-lg text-maroon mb-4">Level 3: Dynamic Data</h3>
+        <h3 class="font-bold text-lg text-maroon mb-4">Level 2: Dynamic Data</h3>
         <ul class="space-y-4 text-gray-700 text-sm list-disc pl-5">
           <li>
             <strong>Hexadecimal Colors:</strong> Use a hexadecimal color generator function inside a component to output a grid of random colors on the screen.
@@ -173,4 +155,10 @@ title: React Components | HAU APSI Classroom
     </div>
   </section>
 
+  <section id="activity" class="bg-maroon text-white rounded-xl p-8 shadow-md mt-12 text-center">
+        <i data-lucide="code-2" class="w-12 h-12 mx-auto mb-4 opacity-80"></i>
+        <p class="text-black opacity-90 mb-6 max-w-2xl mx-auto">Now it is your turn.</p>
+        <a href="https://classroom50.org/HAU-SOC"  class="inline-block px-8 py-3 rounded-lg font-bold transition hover:opacity-90" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32);">Class Portal</a>
+  </section>
+  
 </main>
