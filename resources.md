@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HAU APSI Classroom
+title: Resources | HAU APSI Classroom
 ---
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
