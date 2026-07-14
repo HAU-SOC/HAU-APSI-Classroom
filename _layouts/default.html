@@ -5,28 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   
+  <!-- Fonts and External Libraries -->
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   
+  <!-- Custom JS -->
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
   
+  <!-- CDNs -->
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
 </head>
-<body class="min-h-screen w-full" style="background: rgb(249, 250, 251);">
+<body class="min-h-screen w-full flex flex-col" style="background: rgb(249, 250, 251);">
   
-  <header class="bg-white shadow-sm py-3 px-6 flex items-center gap-4">
-    <img class="h-14 w-auto" loading="lazy" src="https://www.hau.edu.ph/images/logo.png" alt="HAU logo"> </img>
+  <!-- Header (Stays at the very top) -->
+  <header class="bg-white shadow-sm py-3 px-6 flex items-center gap-4 z-20 relative">
+    <img class="h-14 w-auto" loading="lazy" src="https://www.hau.edu.ph/images/logo.png" alt="HAU logo">
     <div>
       <h1 class="text-xl font-bold" style="color: rgb(107, 29, 46); font-weight: 700;">HAU APSI Classroom</h1>
     </div>
   </header>
   
-  <main>
-    {{ content }}
-  </main>
+  <!-- Main Layout Wrapper (Holds Sidebar and Content) -->
+  <div class="flex flex-1 flex-col md:flex-row">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="w-full md:w-64 bg-white shadow-md md:sticky md:top-0 h-auto md:h-[calc(100vh-80px)] overflow-y-auto p-6 z-10">
+      <h2 class="text-lg font-bold mb-6" style="color: rgb(107, 29, 46);">Course Menu</h2>
+      <nav class="flex flex-col gap-4">
+        <a href="#quick-links" class="flex items-center gap-3 text-gray-700 hover:text-maroon font-medium transition">
+          <i data-lucide="link" class="w-4 h-4"></i> Quick Links
+        </a>
+        <a href="#announcements" class="flex items-center gap-3 text-gray-700 hover:text-maroon font-medium transition">
+          <i data-lucide="megaphone" class="w-4 h-4"></i> Latest Announcements
+        </a>
+        <a href="#resources" class="flex items-center gap-3 text-gray-700 hover:text-maroon font-medium transition">
+          <i data-lucide="folder" class="w-4 h-4"></i> Class Resources
+        </a>
+        <a href="#activities" class="flex items-center gap-3 text-gray-700 hover:text-maroon font-medium transition">
+          <i data-lucide="check-square" class="w-4 h-4"></i> Activities & Tasks
+        </a>
+        <a href="#contact" class="flex items-center gap-3 text-gray-700 hover:text-maroon font-medium transition">
+          <i data-lucide="mail" class="w-4 h-4"></i> Contact
+        </a>
+      </nav>
+    </aside>
+
+    <!-- Page Content Injected Here -->
+    <main class="flex-1 w-full">
+      {{ content }}
+    </main>
+
+  </div>
   
+  <!-- Footer -->
   <footer class="text-center py-6 px-6" style="background: rgb(107, 29, 46);">
     <p class="text-sm" style="color: rgb(255, 255, 255);">© 2026 Holy Angel University — School of Computing</p>
   </footer>
