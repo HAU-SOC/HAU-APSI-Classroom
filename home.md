@@ -24,34 +24,21 @@ title: Home | HAU APSI Classroom
       <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
       <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
     </div>
+     <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
+      <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
+    </div>
+     <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Activities </h3>
+      <p class="text-sm text-gray-600">Track tasks, deadlines, and submission status.</p>
+    </div>
+     <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
+      <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
+    </div>
     </div>
 </section>
 
-<section id="quick-links" class="max-w-6xl mx-auto px-6 py-16">
-  <h2>Quick Links</h2>
-  <div class="grid">
-    <a class="card" href="{{ '/home' | relative_url }}">
-      <h3>📢 home </h3>
-      <p>See the latest class updates and reminders.</p>
-    </a>
-    <a class="card" href="#announcements">
-      <h3>📢 Announcements</h3>
-      <p>See the latest class updates and reminders.</p>
-    </a>
-    <a class="card" href="{{ '/resources' | relative_url }}">
-      <h3>📚 Resources</h3>
-      <p>Access modules, references, and study materials.</p>
-    </a>
-    <a class="card" href="#activities">
-      <h3>✅ Activities</h3>
-      <p>Track tasks, deadlines, and submission status.</p>
-    </a>
-    <a class="card" href="#contact">
-      <h3>📬 Contact</h3>
-      <p>Reach out for concerns and support.</p>
-    </a>
-  </div>
-</section>
 
 <section id="announcements">
   <h2>Latest Announcements</h2>
