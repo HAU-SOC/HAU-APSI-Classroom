@@ -1,3 +1,9 @@
 theme: minima
-title: homepage
-description: Bookmark this to keep an eye on my project updates!
+title: HAU APSI Classroom
+description: Updates, resources, and activities for APSI students.
+url: "https://hau-soc.github.io"
+baseurl: "/HAU-APSI-Classroom"
+
+# Optional but recommended
+author: "HAU SOC"
+show_excerpts: true
