@@ -86,7 +86,7 @@ title: Resources
   <div class="card">
     <p>Submit all activities, reflections, and group tasks through the official portal.</p>
     <p style="margin-top: 0.75rem;">
-      <a class="btn" href="#">Go to Submission Portal</a>
+      <a class="btn" href="https://classroom50.org/HAU-SOC">Go to Submission Portal</a>
     </p>
     <p class="muted" style="margin-top: 0.75rem;">Ensure you are logged in with your school account before submitting.</p>
   </div>
