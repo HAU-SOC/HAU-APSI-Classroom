@@ -1,64 +1,22 @@
-# HAU APSI Classroom
-
-Updates, resources, activities, and announcements for the class.
-
-## Table of Contents
-
-- [Quick Links](#quick-links)
-- [Latest Announcements](#latest-announcements)
-- [Class Resources](#class-resources)
-- [Activities](#activities)
-- [Contact](#contact)
-
+---
+layout: default
+title: Home | HAU APSI Classroom
 ---
 
-## Quick Links
+<section class="relative py-20 px-6 text-center text-white" style="background: linear-gradient(135deg, rgb(107, 29, 46), rgb(74, 19, 32));">
+  <div class="relative z-10 max-w-3xl mx-auto">
+    <h2 class="font-bold mb-4" style="font-size: 40px;">HAU APSI Classroom</h2>
+    <p class="text-lg opacity-90 mb-8">Updates, resources, activities, and important class announcements in one place.</p>
+    <a href="#quick-links" class="inline-block px-8 py-3 rounded-lg font-semibold text-maroon hover:opacity-90 transition" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32);">Get Started</a>
+  </div>
+</section>
 
-- 📢 **Announcements** – See the latest class updates and reminders.
-- 📚 **Resources** – Access modules, references, and study materials.
-- ✅ **Activities** – Track tasks, deadlines, and submission guides.
-- 📬 **Contact** – Reach out for concerns and support.
-
----
-
-## Latest Announcements
-
-### Week 1
-Course orientation and classroom guidelines.
-
-### Week 2
-Introductory activity and first reflection task.
-
-### Week 3
-Group collaboration workshop.
-
----
-
-## Class Resources
-
-- 📄 Course Syllabus
-- 📖 Weekly Modules
-- 🏛️ Reference Library
-- ⬆️ Submission Portal
-
----
-
-## Activities
-
-| Activity      | Due Date      | Status    |
-|---------------|---------------|-----------|
-| Reflection 1  | July 20, 2026 | Open      |
-| Quiz 1        | July 24, 2026 | Upcoming  |
-| Group Task    | July 30, 2026 | Upcoming  |
-
----
-
-## Contact
-
-- **Instructor:** Your Name  
-- **Email:** your-email@school.edu  
-- *Last updated: July 14, 2026*
-
----
-
-© 2026 Holy Angel University — School of Computing
+<section id="quick-links" class="max-w-6xl mx-auto px-6 py-16">
+  <h2 class="text-2xl font-bold text-center mb-10" style="color: rgb(107, 29, 46);">Quick Links</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Announcements</h3>
+      <p class="text-sm text-gray-600">See the latest class updates and reminders.</p>
+    </div>
+    </div>
+</section>
