@@ -16,12 +16,11 @@ title: Resources
 <section id="modules" class="max-w-6xl mx-auto px-6 py-16">
   <h2 class="text-2xl font-bold text-center mb-10" style="color: rgb(107, 29, 46);">Learning Modules</h2>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-<article id="module-1-trigger" class="bg-white rounded-xl p-6 shadow-sm border-t-4 border-maroon cursor-pointer hover:shadow-md transition">
-  <h3 class="font-semibold text-lg mb-2 text-gray-900">Module 1</h3>
-  <p class="text-sm text-gray-600 mb-4">Introduction to APSI concepts and course overview.</p>
-  <span class="px-3 py-1 rounded-full text-xs font-semibold badge-open">Click to Open</span>
-</article>
+    <article id="module-1-trigger" class="bg-white rounded-xl p-6 shadow-sm border-t-4 border-maroon cursor-pointer hover:shadow-md transition">
+      <h3 class="font-semibold text-lg mb-2 text-gray-900">Module 1</h3>
+      <p class="text-sm text-gray-600 mb-4">Introduction to APSI concepts and course overview.</p>
+      <span class="px-3 py-1 rounded-full text-xs font-semibold badge-open">Click to Open</span>
+    </article>
     <article class="bg-white rounded-xl p-6 shadow-sm border-t-4 border-maroon">
       <h3 class="font-semibold text-lg mb-2 text-gray-900">Module 1</h3>
       <p class="text-sm text-gray-600 mb-4">Introduction to APSI concepts and course overview.</p>
@@ -38,7 +37,6 @@ title: Resources
       <span class="px-3 py-1 rounded-full text-xs font-semibold badge-upcoming">Upcoming</span>
     </article>
   </div>
-
   <section id="module-1-content" class="hidden bg-white border-y border-gray-200 py-12 px-6 shadow-inner">
   <div class="max-w-4xl mx-auto">
     <div class="flex items-center justify-between mb-8">
