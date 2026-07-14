@@ -16,26 +16,26 @@ title: Home | HAU APSI Classroom
 <section id="quick-links" class="max-w-6xl mx-auto px-6 py-16">
   <h2 class="text-2xl font-bold text-center mb-10" style="color: rgb(107, 29, 46);">Quick Links</h2>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-    <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
-      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Announcements</h3>
-      <p class="text-sm text-gray-600">See the latest class updates and reminders.</p>
-    </div>
-     <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
-      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
-      <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
-    </div>
-     <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
-      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
-      <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
-    </div>
-     <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
-      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Activities </h3>
-      <p class="text-sm text-gray-600">Track tasks, deadlines, and submission status.</p>
-    </div>
-     <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
-      <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
-      <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
-    </div>
+       <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+         <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Announcements</h3>
+         <p class="text-sm text-gray-600">See the latest class updates and reminders.</p>
+       </div>
+        <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+         <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
+         <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
+       </div>
+        <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+         <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
+         <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
+       </div>
+        <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+         <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Activities </h3>
+         <p class="text-sm text-gray-600">Track tasks, deadlines, and submission status.</p>
+       </div>
+        <div class="rounded-xl p-6 border-l-4 border-maroon hover:shadow-lg transition cursor-pointer bg-white">
+         <h3 class="font-semibold text-lg mb-2" style="color: rgb(107, 29, 46);">📢 Resources </h3>
+         <p class="text-sm text-gray-600">Access modules, references, and study materials.</p>
+       </div>
     </div>
 </section>
 
