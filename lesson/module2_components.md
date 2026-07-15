@@ -134,7 +134,7 @@ title: React Components | HAU APSI Classroom
           </li>
           <li>
             <strong>Task:</strong>
-            <ol>
+            <ol type="1">
               <li>Create a DeveloperProfile functional component.</li>
               <li>Define a JavaScript object containing a developer's details (name, title, location, and a short bio).</li>
               <li>Inject these details into the JSX to render a styled profile card.</li>
@@ -150,7 +150,7 @@ title: React Components | HAU APSI Classroom
           </li>
           <li>
             <strong>Task:</strong>
-            <ol>
+            <ol type="1">
               <li>Create a TechBadge component that takes a simple string and renders it inside a styled or element.</li>
               <li>Create a TechList component that contains an array of strings (e.g., ['React', 'Vite', 'JavaScript', 'Tailwind']).</li>
               <li>Use the .map() function inside TechList to dynamically render a TechBadge for every item in the array.</li>
