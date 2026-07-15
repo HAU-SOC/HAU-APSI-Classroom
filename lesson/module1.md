@@ -236,7 +236,7 @@ title: Getting Started with ReactJS and JSX | HAU APSI Classroom
 
   <section id="activity" class="bg-maroon text-white rounded-xl p-8 shadow-md mt-12 text-left">
     <i data-lucide="code-2" class="w-12 h-12 mx-auto mb-4 opacity-80"></i>
-    <h2 class="text-2xl font-bold mb-4">Hands-on Activity</h2>
+    <h2 class="text-black text-2xl font-bold mb-4">Hands-on Activity</h2>
     <p class="text-black opacity-90 mb-6 max-w-2xl mx-auto">This repository contains starter files for a JSX/React quiz.</p>
     <ul class="text-black">
       <ol><strong>Files</strong>
