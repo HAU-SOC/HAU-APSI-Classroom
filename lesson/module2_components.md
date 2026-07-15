@@ -143,19 +143,22 @@ title: React Components | HAU APSI Classroom
         </ul>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-gold">
-        <h3 class="font-bold text-lg text-maroon mb-4">Level 2: Dynamic Data</h3>
+        <h3 class="font-bold text-lg text-maroon mb-4">Level 2: The "Tech Stack & Tools" Aggregation</h3>
         <ul class="space-y-4 text-gray-700 text-sm list-disc pl-5">
           <li>
-            <strong>Hexadecimal Colors:</strong> Use a hexadecimal color generator function inside a component to output a grid of random colors on the screen.
-            <img src="../images/hexadecimal_color_exercise.png" alt="Hex color layout" class="mt-2 rounded border border-gray-200 max-w-sm w-full">
+            <strong>Scenario: </strong> The dashboard needs to display the tools and technologies the developer uses, utilizing nested components. 
           </li>
           <li>
-            <strong>User Profile Card:</strong> Design and build a user profile card component that takes user data as props.
-            <img src="../images/user_card_design_jsx.png" alt="User card layout" class="mt-2 rounded border border-gray-200 max-w-sm w-full">
+            <strong>Task:</strong>
+            <ol>
+              <li>Create a TechBadge component that takes a simple string and renders it inside a styled or element.</li>
+              <li>Create a TechList component that contains an array of strings (e.g., ['React', 'Vite', 'JavaScript', 'Tailwind']).</li>
+              <li>Use the .map() function inside TechList to dynamically render a TechBadge for every item in the array.</li>
+              <li>Bring it all together in an App container component that renders both the DeveloperProfile and the TechList.</li>
+            </ol>
           </li>
         </ul>
       </div>
-    </div>
   </section>
 
   <section id="activity" class="bg-maroon text-white rounded-xl p-8 shadow-md mt-12 text-center">
