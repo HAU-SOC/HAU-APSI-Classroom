@@ -124,18 +124,21 @@ title: React Components | HAU APSI Classroom
 
   <section id="exercises" class="bg-gray-50 py-12 px-8 rounded-xl border border-gray-200">
     <h2 class="text-2xl font-bold text-gray-900 mb-8 text-center flex items-center justify-center gap-3">
-      <i data-lucide="dumbbell" class="text-maroon w-8 h-8"></i> Practice Exercises
+      <i data-lucide="dumbbell" class="text-maroon w-8 h-8"></i> Hands-on Exercises
     </h2>
       <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-gold">
-        <h3 class="font-bold text-lg text-maroon mb-4">Level 1: Building UIs</h3>
+        <h3 class="font-bold text-lg text-maroon mb-4">Level 1: The "Developer Profile" Component</h3>
         <ul class="space-y-4 text-gray-700 text-sm list-disc pl-5">
           <li>
-            <strong>Front-End Technologies:</strong> Create functional components to display a grid of technology logos.
-            <img src="../images/frontend_technologies.png" alt="Front end layout" class="mt-2 rounded border border-gray-200 max-w-sm w-full">
+            <strong>Scenario: </strong> A tech company needs a standardized profile card for their internal team directory.
           </li>
           <li>
-            <strong>Newsletter Subscription:</strong> Use functional components to recreate a newsletter signup design.
-            <img src="../images/news_letter_design.png" alt="Newsletter layout" class="mt-2 rounded border border-gray-200 max-w-sm w-full">
+            <strong>Task:</strong>
+            <ol>
+              <li>Create a DeveloperProfile functional component.</li>
+              <li>Define a JavaScript object containing a developer's details (name, title, location, and a short bio).</li>
+              <li>Inject these details into the JSX to render a styled profile card.</li>
+            </ol>
           </li>
         </ul>
       </div>
