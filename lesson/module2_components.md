@@ -162,7 +162,7 @@ title: React Components | HAU APSI Classroom
   </section>
 
   <section id="activity" class="bg-maroon text-white rounded-xl p-8 shadow-md mt-12 text-center">
-        <i data-lucide="code-2" class= "text-black w-12 h-12 mx-auto mb-4 opacity-80">Submission</i>
+        <strong> <i data-lucide="code-2" class= "text-black w-12 h-12 mx-auto mb-4 opacity-80">Submission</i> </strong>
         <p class="text-black opacity-90 mb-6 max-w-2xl mx-auto">Push a commit to your assignment repository (auto-generated GitHub repository) to record/submit your activity. Login to your classroom50.org account to view your activity status.</p>
         <a href="https://classroom50.org/HAU-SOC"  class="inline-block px-8 py-3 rounded-lg font-bold transition hover:opacity-90" style="background: rgb(245, 196, 90); color: rgb(74, 19, 32);">Class Portal</a>
   </section>
