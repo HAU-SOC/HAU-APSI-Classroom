@@ -243,7 +243,7 @@ title: Getting Started with ReactJS and JSX | HAU APSI Classroom
         <li>/src/App.jsx: Replace or edit this component as directed in the tutorial.</li>
         <li>/assignment.js: Existing starter file where you write the required functions/logic.</li>
         <li>/package.json: Basic Node package configuration.</li>
-      </ol>
+      </ol> <br> <br>
       <ol><strong>Getting started</strong>
         <li>Open the project in your editor.</li>
         <li>Complete the TODOs in the existing /assignment.js file.</li>
