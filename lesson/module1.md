@@ -238,7 +238,7 @@ title: Getting Started with ReactJS and JSX | HAU APSI Classroom
     <i data-lucide="code-2" class="w-12 h-12 mx-auto mb-4 opacity-80"></i>
     <h2 class="text-2xl font-bold mb-4">Hands-on Activity</h2>
     <p class="text-black opacity-90 mb-6 max-w-2xl mx-auto">This repository contains starter files for a JSX/React quiz.</p>
-    <ul>
+    <ul class="text-black">
       <ol><strong>Files</strong>
         <li>/src/App.jsx: Replace or edit this component as directed in the tutorial.</li>
         <li>/assignment.js: Existing starter file where you write the required functions/logic.</li>
